@@ -10,7 +10,7 @@ Feature: Is it Friday yet?
     Then I should be told "TGIF"
 
   @tuesday
-  Scenario: Today is or is not Friday
+  Scenario: Today is or is not tuesday
     Given today is "Friday"
     When I ask whether it's Friday yet
     Then I should be told "TGIF"
