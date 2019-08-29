@@ -8,9 +8,14 @@ import static org.junit.Assert.*;
 public class DayDefs {
     private String today;
     private String actualAnswer;
-
+    public String var1 = System.getProperty("firstVar");
+    public String var2 = System.getProperty("secondVar");
+    public String var3 = System.getProperty("thirdVar");
+    
+    
     @Given("^today is \"([^\"]*)\"$")
     public void today_is(String today) {
+        System.out.println("var1: " + var1 + ";var2: " + var2 + "var3: " + var3);
         this.today = today;
     }
 
