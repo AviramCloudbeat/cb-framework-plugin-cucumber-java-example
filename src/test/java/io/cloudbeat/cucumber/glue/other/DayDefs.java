@@ -1,3 +1,4 @@
+//test git sync
 package io.cloudbeat.cucumber.glue.other;
 
 import cucumber.api.java.en.Given;
@@ -11,7 +12,7 @@ public class DayDefs {
     public String var1 = System.getProperty("firstVar");
     public String var2 = System.getProperty("secondVar");
     public String var3 = System.getProperty("thirdVar");
-    
+   
     
     @Given("^today is \"([^\"]*)\"$")
     public void today_is(String today) {
